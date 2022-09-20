@@ -4,18 +4,18 @@ import AddPolicyForm from './AddPolicyForm';
 import PolicyList from './PolicyList';
 import PolicyItem from './PolicyItem';
 import TotalSelectedItems from './TotalSelectedtems';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const About = () => {
+const Profile = () => {
 	return (
 		<div className='container bg-white p-4 mt-5'>
 			<span>
 				<h1 className='homepage-horizon'>
-					About
+					My Profile
 				</h1>
 			</span>
 		</div>
 	);
 };
 
-export default About;
+export default Profile;

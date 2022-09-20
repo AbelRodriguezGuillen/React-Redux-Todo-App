@@ -4,18 +4,16 @@ import AddPolicyForm from './AddPolicyForm';
 import PolicyList from './PolicyList';
 import PolicyItem from './PolicyItem';
 import TotalSelectedItems from './TotalSelectedtems';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const About = () => {
+const ErrorPage = () => {
 	return (
-		<div className='container bg-white p-4 mt-5'>
-			<span>
-				<h1 className='homepage-horizon'>
-					About
-				</h1>
-			</span>
+		<div>
+		    <h3 className='Error-page'>
+					The link you clicked is not currently active. Please return to the previous page and select a different link.
+			</h3>
 		</div>
 	);
 };
 
-export default About;
+export default ErrorPage;
